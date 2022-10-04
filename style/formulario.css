@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Helvetica"; src: url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.eot");
+     src: url("/fonts/Helvetica-Black-Oblique.ttf") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.svg#Helvetica") format("svg");
+}
+
+ @import url(//db.onlinewebfonts.com/c/c03f80ccf879e6f840ca56279854945e?family=Helvetica+Neue);
+
+ @media (max-width: 600px) {
+   .facet_sidebar {
+     display: none;
+   }
+ }
+
+h1 {
+    font-family: "Helvetica";
+}
+
+ h2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-family: monospace;
+ }
+
+
+ .container-add {
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333;
+ }
+
+
+ .container__title{
+    background-color:  rgb(42, 42, 133);
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    color: white;
+    font-family: monospace;
+    font-size: 28px;
+ }
+
+
+ .container__label {
+
+    margin: 30px auto;
+ }
+
+ .container__form {
+
+    background: white;
+   
+ }

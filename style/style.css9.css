@@ -1,0 +1,110 @@
+
+
+
+
+    
+
+
+@font-face {
+    font-family: "Helvetica"; src: url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.eot");
+     src: url("/fonts/Helvetica-Black-Oblique.ttf") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.svg#Helvetica") format("svg");
+}
+
+ @import url(//db.onlinewebfonts.com/c/c03f80ccf879e6f840ca56279854945e?family=Helvetica+Neue);
+
+ 
+
+h1{ 
+    font-family: "Helvetica";
+    font-size: 30;
+    padding-top: 15px; 
+    align-content: center;
+    
+ }
+
+#ramallo {
+    border-radius: 7px;
+    width: 303px;
+    height: 170px;
+  transition: .25s all;
+}
+
+.ram img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+#sn {
+    border-radius: 7px;
+    width: 298px;
+    height: 170px;
+    animation: sn 1.43s ease-in;
+    overflow: hidden;
+    
+}
+
+
+
+
+.sn img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#rosario {
+    border-radius: 7px;
+    width: 300px;
+    height: 170px;
+   
+    
+}
+
+.rosario img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    width: 300px;
+    height: 170px;
+   
+
+}
+
+
+
+
+
+
+body{
+    height: 630px;
+    width: 100%;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  
+  
+  
+}
+
+
+
+
+#grua {
+    margin-right: 40px;
+    border-radius: 7px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+
+
+
+    
+    
+ 

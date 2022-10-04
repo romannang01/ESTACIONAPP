@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: "Helvetica"; src: url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.eot");
+     src: url("/fonts/Helvetica-Black-Oblique.ttf") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3f610a59a3c8a0229084ea3e1312738c.svg#Helvetica") format("svg");
+}
+
+ @import url(//db.onlinewebfonts.com/c/c03f80ccf879e6f840ca56279854945e?family=Helvetica+Neue);
+
+
+body {
+    background-color: lightgrey;
+}
+.tabla1,.tabla2,.tabla3 {
+    border-bottom: 1px dotted black;
+    width: 33%;
+    margin-left: 1cm;
+    background-color: white;
+}
+
+button {
+    margin-left: 3%; 
+    background-color:  rgb(71, 80, 255);
+    color: white;
+    height: 45px;
+    width: 130px;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: 800;
+    border: hidden white;
+    border-radius: 10px ;
+    transition: .25s ease-in-out;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+}

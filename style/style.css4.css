@@ -1,0 +1,15 @@
+*{ margin-top: 7%;
+    margin-left:auto;
+margin-right:auto;}
+   
+
+
+body {
+    background-color: #2bbcff;
+    text-align: center;
+  font-size: 60;
+  font-family: 'century gothic' ;
+  -webkit-text-stroke: 3px rgb(16, 102, 199);
+  color: white;
+  font-weight: 700;
+}

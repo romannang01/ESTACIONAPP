@@ -1,0 +1,55 @@
+
+/* Content App */
+.contenedor{
+    height: 690px;
+    background: url('../img/fondo-liviano.jpg') no-repeat;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.content-app{
+
+    height: 100%;
+    width: 100%;
+
+    .logo{
+
+        width: 100%;
+        
+        padding: 15px 0px;
+        margin-bottom: 50px;
+
+        img{
+            display: block;
+            margin: auto;
+    
+        }
+    } 
+
+
+    .divisor-1{
+        width: auto;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        .buscar{
+            background-color: rgba(255, 255, 255, 0.836);
+            padding: 15px;
+            margin-top: 35px;
+            
+            
+            h1{
+                text-align: center;
+            }
+        }
+        .busqueda{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+#buscar{
+    
+}

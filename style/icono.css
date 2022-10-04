@@ -1,0 +1,63 @@
+body {
+    background-color: dodgerblue;
+    animation: fadeOut 6s ease-out;
+    
+}
+
+
+
+
+
+
+    
+
+    @keyframes fadeOut {
+        0%{background-color: dodgerblue;}
+        50%{background-color: dodgerblue;}
+        75%{background-color: white;}
+        100%{background-color: white;}
+    }
+
+  img {
+    
+    margin-left: 43%;
+    border-radius: 60px;
+    width: 150px;
+    margin-top: 10%;
+    transition: 2s;
+    animation: icono 5s ease-in-out;
+   
+  }
+
+
+  @keyframes icono {
+
+   
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    25%{
+
+    }
+    
+  }
+
+ 

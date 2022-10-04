@@ -1,0 +1,50 @@
+
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('/fonts/Poppins-Black.ttf format (truetype)');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @import url('/fonts/Poppins-Black.ttf format (truetype)');
+
+
+ body {
+    background-color: lightgray;
+}
+
+h1{ color: white;
+    text-align: center;
+    background-image: url("img/fondoo.png") ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.formulario{
+    
+    padding-top: 18%;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/fondoo.png") ;
+    padding-bottom: 65%;
+    
+
+}
+
+
+.formulario form{
+    width: 300px;
+    padding: 20px;
+}
+#cambiar{
+    
+    border: none;
+}
+.hor-lug{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+

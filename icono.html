@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "style/icono.css" rel= "stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="carga" onclick="window.location.href='http://localhost/ciudades.html';">
+        
+       
+        
+        <img src= "/img/My project-1.png" id="logo">
+    
+    
+    </div>
+
+    <script type="text/javascript">
+     
+     setTimeout("location.href='http://localhost/ciudades.html';",5000);
+     function fadeOut(){
+        var colors= ["dodgerblue","white"];
+        var CurrentIndex= 0;
+
+        setInterval(function(){
+            document.body.style.cssText= "background-color"+colors[CurrentIndex];
+            CurrentIndex++;
+            if (currentIndex == undefined || currentIndex >= colors.length) {
+		currentIndex = 0;
+	}
+        },1000);
+     }
+
+   </script>
+</body>
+
+
+</html>

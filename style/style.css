@@ -1,0 +1,89 @@
+/* Content App */
+.contenedor {
+  height: 740px;
+  background: url("../img/fondo-liviano.jpg") no-repeat;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+ 
+}
+
+.content-app {
+  height: 100%;
+  width: 100%;
+}
+
+.content-app .logo {
+  width: 100%;
+  padding: 15px 0px;
+  margin-bottom: 50px;
+}
+
+.content-app .logo img {
+  display: block;
+  margin: auto;
+}
+
+.content-app .divisor-1 {
+  width: auto;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.content-app .divisor-1 .buscar {
+  background-color: rgba(255, 255, 255, 0.836);
+  padding: 15px;
+  margin-top: 35px;
+  border-radius: 10px;
+  width: 310px;
+}
+
+
+.content-app .divisor-1 .buscar h1 {
+  text-align: center;
+}
+
+.content-app .divisor-1 .busqueda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 10px;
+}
+
+
+
+.button1 {
+  margin-left: 27%;
+  border-color: white;
+  border-radius: 10px;
+  background-color:  rgb(71, 80, 255);
+  color: white;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  font-family: Calibri;
+  font-weight: 800;
+}
+.button2 {
+  border-color: white;
+  border-radius: 10px;
+  background-color:  rgb(71, 80, 255);
+  color: white;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  font-family: Calibri;
+  font-weight: 800;
+}
+/*# sourceMappingURL=style.css.map */
